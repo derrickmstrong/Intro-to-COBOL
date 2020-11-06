@@ -1,6 +1,6 @@
        >>SOURCE FORMAT FREE
 IDENTIFICATION DIVISION.
-PROGRAM-ID.    file-name.
+PROGRAM-ID.    while-loop.
 AUTHOR. Derrick Strong.
 DATE-WRITTEN.November 6th 2020
 ENVIRONMENT DIVISION.
@@ -8,10 +8,13 @@ CONFIGURATION SECTION.
 DATA DIVISION.
 FILE SECTION.
 WORKING-STORAGE SECTION.
-
+       01  Ind     PIC 9(1) VALUE 0.
 
 PROCEDURE DIVISION.
+PERFORM OutputData WITH TEST AFTER UNTIL Ind >= 5.
 
+OutputData.
+       DISPLAY Ind
+       ADD 1 TO Ind.
 
-
-STOP RUN.
+*> Note: There is now STOP RUN. for a while loop

@@ -18,9 +18,6 @@ WORKING-STORAGE SECTION.
            03 FName PIC X(10).
            03 LName PIC X(10).
 *> Index Table - Declare subscript inside table
-01 OrderTable
-       02 Product OCCURS 2 TIMES INDEXED BY I.
-           03 Prod
 
 
 PROCEDURE DIVISION.

@@ -1,8 +1,8 @@
        >>SOURCE FORMAT FREE
 IDENTIFICATION DIVISION.
-PROGRAM-ID.    customerreport.
+PROGRAM-ID.    createareport.
 AUTHOR. Derrick Strong.
-DATE-WRITTEN.November 8th 2020
+DATE-WRITTEN.November 9th 2020
 ENVIRONMENT DIVISION.
 *> Must add INPUT-OUTPUT section and FILE-CONTROL to work with files
 INPUT-OUTPUT SECTION.
